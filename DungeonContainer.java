@@ -43,7 +43,7 @@ public class DungeonContainer {
 
     public void scan() {
         int val;
-        System.out.println("enter movement");
+        System.out.println("Press 7 to move ");
         Scanner player = new Scanner(System.in);
         val = player.nextInt();
         if (val == 7) {
